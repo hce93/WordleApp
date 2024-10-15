@@ -7,5 +7,5 @@ Uses KeyListener to accept keyboard input from the user. I have modified the plu
 
     if (press.Key is UIKey key && !string.IsNullOrWhiteSpace(key.CharactersIgnoringModifiers))
 
-    Link to plugin:
+Link to plugin:
     - https://github.com/davidortinau/Plugin.Maui.KeyListener
