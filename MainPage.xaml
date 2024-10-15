@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordleApp.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Margin="20">
+        <Grid x:Name="GuessLine0" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
+            <Frame Grid.Column="0" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter00" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter01" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="2" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter02" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="3" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter03" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="4" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter04" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        <Grid x:Name="GuessLine1" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
+            <Frame Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter10" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter11" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="2" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter12" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="3" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter13" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="4" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter14" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        <Grid x:Name="GuessLine2" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
+            <Frame Grid.Column="0" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter20" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter21" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="2" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter22" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="3" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter23" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="4" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter24" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        <Grid x:Name="GuessLine3" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
+            <Frame Grid.Column="0" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter30" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter31" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="2" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter32" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="3" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter33" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="4" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter34" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        <Grid x:Name="GuessLine4" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
+            <Frame Grid.Column="0" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter40" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter41" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="2" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter42" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="3" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter43" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="4" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter44" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        <Grid x:Name="GuessLine5" ColumnDefinitions="*,*,*,*,*" WidthRequest="400" Margin="5,5,5,30">
+            <Frame Grid.Column="0" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter50" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter51" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="2" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter52" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="3" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter53" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+            <Frame Grid.Column="4" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+                <Label x:Name="letter54" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </Frame>
+        </Grid>
+        
+        <Grid ColumnDefinitions="*,*,*,*,*,*,*,*,*,*"
+               HorizontalOptions="Center" x:Name="letterGrid0">
+            <Button Grid.Row="0" Grid.Column="0" Text="Q" x:Name="letterQ" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="W" x:Name="letterW" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="2" Text="E" x:Name="letterE" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="3" Text="R" x:Name="letterR" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="4" Text="T" x:Name="letterT" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="5" Text="Y" x:Name="letterY" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="6" Text="U" x:Name="letterU" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="7" Text="I" x:Name="letterI" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="8" Text="O" x:Name="letterO" Clicked="SelectLetter"/>
+            <Button Grid.Row="0" Grid.Column="9" Text="P" x:Name="letterP" Clicked="SelectLetter"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*,*,*,*,*,*,*,*"
+              HorizontalOptions="Center" x:Name="letterGrid1">
+            <Button Grid.Column="0" Text="A" x:Name="letterA" Clicked="SelectLetter"/>
+            <Button Grid.Column="1" Text="S" x:Name="letterS" Clicked="SelectLetter"/>
+            <Button Grid.Column="2" Text="D" x:Name="letterD" Clicked="SelectLetter"/>
+            <Button Grid.Column="3" Text="F" x:Name="letterF" Clicked="SelectLetter"/>
+            <Button Grid.Column="4" Text="G" x:Name="letterG" Clicked="SelectLetter"/>
+            <Button Grid.Column="5" Text="H" x:Name="letterH" Clicked="SelectLetter"/>
+            <Button Grid.Column="6" Text="J" x:Name="letterJ" Clicked="SelectLetter"/>
+            <Button Grid.Column="7" Text="K" x:Name="letterK" Clicked="SelectLetter"/>
+            <Button Grid.Column="8" Text="L" x:Name="letterL" Clicked="SelectLetter"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*,*,*,*,*,*,*,*"
+               HorizontalOptions="Center" x:Name="letterGrid2">
+            <Button Grid.Column="0" Text="Z" x:Name="letterZ" Clicked="SelectLetter"/>
+            <Button Grid.Column="1" Text="X" x:Name="letterX" Clicked="SelectLetter"/>
+            <Button Grid.Column="2" Text="C" x:Name="letterC" Clicked="SelectLetter"/>
+            <Button Grid.Column="3" Text="V" x:Name="letterV" Clicked="SelectLetter" />
+            <Button Grid.Column="4" Text="B" x:Name="letterB" Clicked="SelectLetter"/>
+            <Button Grid.Column="5" Text="N" x:Name="letterN" Clicked="SelectLetter"/>
+            <Button Grid.Column="6" Text="M" x:Name="letterM" Clicked="SelectLetter"/>
+            <Button x:Name="backspaceButton" Grid.Row="2" Grid.Column="7" Text="del" Clicked="Backspace" IsEnabled="False" MinimumWidthRequest="75"/>
+            <Button x:Name="submitButton" Grid.Row="2" Grid.Column="8" Text="⮐" Clicked="Submit" IsEnabled="False"/>
+        </Grid>
+        <Button Text="Reset" WidthRequest="200" Clicked="ResetGame" Margin="20" Padding="20"/>
+    </StackLayout>
+</ContentPage>
