@@ -265,6 +265,7 @@ public partial class MainPage : ContentPage
     void ListenForGuess()
     {
         var kb = new KeyboardBehavior();
+		
         this.Behaviors.Add(kb);
         kb.KeyDown += (s, e) =>
         {
@@ -276,10 +277,7 @@ public partial class MainPage : ContentPage
             else if(e.Keys.ToString()=="Enter")
 				if (charGuessNumber==5)
 					Submit();
-				else
-					return;
-			else
-                DisplayAlert("Error", "That key isn't valid");
+					
         };
     }
 }

@@ -1,8 +1,17 @@
 {
   "profiles": {
-    "Windows Machine": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
+    "MyMauiApp": {
+      "commandName": "Project",
+      "executablePath": "${ProjectDir}/bin/Debug/net8.0-maccatalyst/WordleApp.app/Contents/MacOS/WordleApp",
+      "workingDirectory": "${ProjectDir}",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Default": {
+      "commandName": "Project",
+      "launchBrowser": true
     }
   }
 }

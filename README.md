@@ -9,3 +9,6 @@ Uses KeyListener to accept keyboard input from the user. I have modified the plu
 
 Link to plugin:
     - https://github.com/davidortinau/Plugin.Maui.KeyListener
+
+
+Note, currently only tested for mac os
