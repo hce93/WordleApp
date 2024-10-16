@@ -14,7 +14,7 @@ public partial class App : Application
     {
         var window = base.CreateWindow(activationState);
 
-        const int minWidth = 850;
+        const int minWidth = 750;
         const int minHeight = 850;
         
         window.MinimumWidth = minWidth;

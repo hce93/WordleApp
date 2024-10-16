@@ -10,106 +10,106 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <StackLayout Margin="20">
-        <Grid x:Name="GuessLine0" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
-            <Frame Grid.Column="0" VerticalOptions="Center" HeightRequest="50">
+    <StackLayout>
+        <Grid x:Name="GuessLine0" ColumnDefinitions="*,*,*,*,*" WidthRequest="{OnPlatform iOS=350}">
+            <Frame Grid.Column="0" VerticalOptions="Center" >
                 <Label x:Name="letter00" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="1" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="1" Grid.Row="0" VerticalOptions="Center" >
                 <Label x:Name="letter01" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="2" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="2" Grid.Row="0" VerticalOptions="Center" >
                 <Label x:Name="letter02" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="3" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="3" Grid.Row="0" VerticalOptions="Center" >
                 <Label x:Name="letter03" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="4" Grid.Row="0" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="4" Grid.Row="0" VerticalOptions="Center" >
                 <Label x:Name="letter04" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
         </Grid>
-        <Grid x:Name="GuessLine1" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
-            <Frame Grid.Column="0" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+        <Grid x:Name="GuessLine1" ColumnDefinitions="*,*,*,*,*" WidthRequest="{OnPlatform iOS=350}">
+            <Frame Grid.Column="0" Grid.Row="1" VerticalOptions="Center" >
                 <Label x:Name="letter10" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="1" Grid.Row="1" VerticalOptions="Center" >
                 <Label x:Name="letter11" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="2" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="2" Grid.Row="1" VerticalOptions="Center" >
                 <Label x:Name="letter12" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="3" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="3" Grid.Row="1" VerticalOptions="Center" >
                 <Label x:Name="letter13" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="4" Grid.Row="1" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="4" Grid.Row="1" VerticalOptions="Center" >
                 <Label x:Name="letter14" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
         </Grid>
-        <Grid x:Name="GuessLine2" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
-            <Frame Grid.Column="0" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+        <Grid x:Name="GuessLine2" ColumnDefinitions="*,*,*,*,*" WidthRequest="{OnPlatform iOS=350}">
+            <Frame Grid.Column="0" Grid.Row="2" VerticalOptions="Center" >
                 <Label x:Name="letter20" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="1" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="1" Grid.Row="2" VerticalOptions="Center" >
                 <Label x:Name="letter21" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="2" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="2" Grid.Row="2" VerticalOptions="Center" >
                 <Label x:Name="letter22" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="3" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="3" Grid.Row="2" VerticalOptions="Center" >
                 <Label x:Name="letter23" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="4" Grid.Row="2" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="4" Grid.Row="2" VerticalOptions="Center" >
                 <Label x:Name="letter24" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
         </Grid>
-        <Grid x:Name="GuessLine3" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
-            <Frame Grid.Column="0" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+        <Grid x:Name="GuessLine3" ColumnDefinitions="*,*,*,*,*" WidthRequest="{OnPlatform iOS=350}">
+            <Frame Grid.Column="0" Grid.Row="3" VerticalOptions="Center" >
                 <Label x:Name="letter30" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="1" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="1" Grid.Row="3" VerticalOptions="Center" >
                 <Label x:Name="letter31" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="2" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="2" Grid.Row="3" VerticalOptions="Center" >
                 <Label x:Name="letter32" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="3" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="3" Grid.Row="3" VerticalOptions="Center" >
                 <Label x:Name="letter33" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="4" Grid.Row="3" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="4" Grid.Row="3" VerticalOptions="Center" >
                 <Label x:Name="letter34" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
         </Grid>
-        <Grid x:Name="GuessLine4" ColumnDefinitions="*,*,*,*,*" WidthRequest="400">
-            <Frame Grid.Column="0" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+        <Grid x:Name="GuessLine4" ColumnDefinitions="*,*,*,*,*" WidthRequest="{OnPlatform iOS=350}">
+            <Frame Grid.Column="0" Grid.Row="4" VerticalOptions="Center" >
                 <Label x:Name="letter40" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="1" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="1" Grid.Row="4" VerticalOptions="Center" >
                 <Label x:Name="letter41" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="2" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="2" Grid.Row="4" VerticalOptions="Center" >
                 <Label x:Name="letter42" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="3" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="3" Grid.Row="4" VerticalOptions="Center" >
                 <Label x:Name="letter43" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="4" Grid.Row="4" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="4" Grid.Row="4" VerticalOptions="Center" >
                 <Label x:Name="letter44" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
         </Grid>
-        <Grid x:Name="GuessLine5" ColumnDefinitions="*,*,*,*,*" WidthRequest="400" Margin="5,5,5,30">
-            <Frame Grid.Column="0" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+        <Grid x:Name="GuessLine5" ColumnDefinitions="*,*,*,*,*" WidthRequest="{OnPlatform iOS=350}" Margin="5,5,5,20">
+            <Frame Grid.Column="0" Grid.Row="5" VerticalOptions="Center" >
                 <Label x:Name="letter50" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="1" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="1" Grid.Row="5" VerticalOptions="Center" >
                 <Label x:Name="letter51" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="2" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="2" Grid.Row="5" VerticalOptions="Center" >
                 <Label x:Name="letter52" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="3" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="3" Grid.Row="5" VerticalOptions="Center" >
                 <Label x:Name="letter53" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
-            <Frame Grid.Column="4" Grid.Row="5" VerticalOptions="Center" HeightRequest="50">
+            <Frame Grid.Column="4" Grid.Row="5" VerticalOptions="Center" >
                 <Label x:Name="letter54" Text="" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Frame>
         </Grid>
@@ -148,7 +148,7 @@
             <Button Grid.Column="4" Text="B" x:Name="letterB" Clicked="SelectLetter"/>
             <Button Grid.Column="5" Text="N" x:Name="letterN" Clicked="SelectLetter"/>
             <Button Grid.Column="6" Text="M" x:Name="letterM" Clicked="SelectLetter"/>
-            <Button x:Name="backspaceButton" Grid.Row="2" Grid.Column="7" Text="del" Clicked="Backspace" IsEnabled="False" MinimumWidthRequest="75"/>
+            <Button x:Name="backspaceButton" Grid.Row="2" Grid.Column="7" Text="del" Clicked="Backspace" IsEnabled="False"/>
             <Button x:Name="submitButton" Grid.Row="2" Grid.Column="8" Text="⮐" Clicked="Submit" IsEnabled="False"/>
         </Grid>
         <Button Text="Reset" WidthRequest="200" Clicked="ResetGame" Margin="20" Padding="20"/>
