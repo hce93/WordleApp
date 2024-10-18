@@ -11,4 +11,4 @@ Link to plugin:
     - https://github.com/davidortinau/Plugin.Maui.KeyListener
 
 
-Note, currently tested for mac and iphone 16
+Currently tested for mac and iphone 16
