@@ -9,6 +9,7 @@ Uses KeyListener to accept keyboard input from the user. I have modified the plu
 
 Link to plugin:
     - https://github.com/davidortinau/Plugin.Maui.KeyListener
+    - run-> dotnet add package Plugin.Maui.KeyListener --version 1.0.0-preview1
 
 
 Currently tested for mac and iphone 16
